@@ -1,0 +1,28 @@
+.AlbumItem{
+    width: 18rem;
+    border: 1px solid #ccc;
+    margin: 0 1rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    box-shadow:  5px 5px 3px 3px rgba(0, 0, 0, 0.2)
+}
+
+.AlbumItem .AlbumImg{
+    width: 100%;
+    height: 200px;
+}
+.AlbumItem:hover .AlbumControls{
+    transform: translateY(-100%);
+}
+.AlbumControls{
+    background-color: #ccc;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all 300ms ease-in-out;
+}

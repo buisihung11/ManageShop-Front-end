@@ -1,0 +1,42 @@
+.NavigationBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    z-index: 100;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.35);
+}
+/* .NavigationBar .Logo {
+    padding: 0;
+    margin: 0 1rem;
+    color: white;
+    text-transform: uppercase;
+} */
+.NavigationBar .NavDesktop {
+    display: none;
+}
+
+@media (min-width: 500px){
+    .NavigationBar .NavDesktop {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* .NavigationBar .NavItems a{
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+.NavigationBar .NavItems a:hover,
+.NavigationBar .NavItems a.active{
+    color: white;
+} */
