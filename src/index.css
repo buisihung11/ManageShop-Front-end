@@ -9,6 +9,11 @@ body {
   
 }
 
+ul,ol,dl {
+  margin: 0;
+  padding: 0;
+}
+
 a{
   text-decoration: none;
   color: white;

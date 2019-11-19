@@ -3,7 +3,7 @@ import AddAlbum from '../../../containers/AddAlbum/AddAlbum'
 
 
 
-export class AddAlbumPage extends Component {
+class AddAlbumPage extends Component {
     render() {
         return (
             <div>

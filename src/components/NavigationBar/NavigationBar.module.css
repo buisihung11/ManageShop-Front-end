@@ -12,6 +12,7 @@
     box-sizing: border-box;
     z-index: 100;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,.35);
+    
 }
 /* .NavigationBar .Logo {
     padding: 0;
@@ -21,8 +22,11 @@
 } */
 .NavigationBar .NavDesktop {
     display: none;
+    margin-bottom: 0;
 }
-
+.NavigationBar a:hover{
+    text-decoration: none;
+}
 @media (min-width: 500px){
     .NavigationBar .NavDesktop {
         display: flex;

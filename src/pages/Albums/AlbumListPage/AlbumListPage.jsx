@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import Button from '../../../components/UI/Button/Button';
-import AlbumListComponent from "../../../containers/AlbumList/AlbumList";
+import AlbumList from "../../../components/AlbumList/AlbumList";
 
-export class AlbumList extends Component {
+export class AlbumListPage extends Component {
   render() {
     return (
       <div>
@@ -13,10 +13,10 @@ export class AlbumList extends Component {
             <Link to="/albums/create">Create new Album </Link>
             <i className="fas fa-plus"></i>
         </Button>
-        <AlbumListComponent />
+        <AlbumList />
       </div>
     );
   }
 }
 
-export default AlbumList;
+export default AlbumListPage;
